@@ -6,14 +6,16 @@
     box-sizing: border-box;
 }
 
-:root {
-    --title-color: black;
-    --sub-text-color: #14a9ee;
-    scroll-behavior: smooth;
-    font-family: 'Lato', sans-serif;
+/* властивості спільні для всього HTML документу */
+:root { 
+    --title-color: black;   /* змінна*/
+    --sub-text-color: #14a9ee;  /* змінна*/
+    /* ДОДАВАТИ СЮДИ ВСІ КОЛЬОРИ І ДАТИ ЇМ ЗМІННІ */
+    scroll-behavior: smooth;    /* плавна прокрутка*/
+    font-family: 'Lato', sans-serif;  /*шрифт до всього документа*/
 }
 
 img {
     display: block;
-    width: 100%;
+    width: 100%; /* не дає картинкам вилазити за межі сторінки, потім задавати розміри у класах і т.д. */
 }

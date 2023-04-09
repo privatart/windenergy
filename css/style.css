@@ -1,1 +1,4 @@
 @import "global.css";
+.underheader__text {
+    color: var(--title-color);  /* використання змінної з global.css */
+}
