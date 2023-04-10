@@ -10,3 +10,18 @@
     top: 0; /* зверху сторінки */
     width: 100%; /* повна ширина */
 }
+
+.logo {
+    width: 150 px;
+}
+
+/* Style links inside nav */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 6px;
+    text-decoration: none;
+    font-size: 17px;
+  }
