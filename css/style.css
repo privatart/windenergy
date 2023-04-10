@@ -56,16 +56,17 @@
   background: rgba(0, 0, 0, 0.6); /* чорний фон з певною прозорістю */
   width: 100%; /* ширина 100% */
   padding: 20px; /* висота смужки з текстом */
+  margin-bottom: auto;
 }
 
 .underheader__h1 {
   color: #70a036;
-  size: 150px;
+  font-size: 50px;
 }
 
 .underheader__h3 {
-  color: #9ec76c;
-  size: 20px;
+  color:  white;
+  font-size: 20px;
 }
 
 .services__image {
