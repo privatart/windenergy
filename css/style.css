@@ -8,7 +8,7 @@
     top: 0;
     /* зверху сторінки */
     width: 100%;     /* повна ширина */
-    height: 75px;
+    height: 85px;
 }
 
 .nav__menu {
@@ -51,5 +51,5 @@
 
 .solutions__box-image {
     border-radius: 50%;
-    width: 350px;
+    width: 90px;
 }
