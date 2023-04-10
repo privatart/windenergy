@@ -7,8 +7,8 @@
     /* якщо контенту більше то зайве ховається */
     top: 0;
     /* зверху сторінки */
-    width: 100%;
-    /* повна ширина */
+    width: 100%;     /* повна ширина */
+    height: 65px;
 }
 
 .nav__menu {
@@ -47,4 +47,8 @@
 .services__image {
     width: 50%;
     float: left;
+}
+
+.solutions__box-image {
+    border-radius: 50%;
 }
