@@ -11,6 +11,11 @@
     /* повна ширина */
 }
 
+.nav__menu {
+    float: right;
+    margin-right: 20px;
+}
+
 .nav__logo {
     width: 150px;
 }
@@ -55,7 +60,8 @@
         right: 20px;
         background-color: rgb(161, 160, 160);
         opacity: 0.85;
-        color: var(--title-color); /* використання змінної з global.css */
+        /* color: var(--title-color); використання змінної з global.css */
+        color: brown;
         padding-left: 80px;
         padding-right: 20px;
         font-size: 50px;
