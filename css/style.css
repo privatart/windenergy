@@ -14,6 +14,7 @@
 .nav__menu {
     float: right;
     margin-right: 20px;
+    margin-left: 299px;
 }
 
 .nav__logo {
@@ -48,11 +49,11 @@
         /* margin-right: 20px; */
     /* } */
 
-    .underheader__image {
-        position: relative;
-        height: 300px;
+    /* .underheader__image { */
+        /* position: relative; */
+        /* height: 300px; */
         /* width: 100%; */
-    }
+    /* } */
 
     .underheader__text {
         position: absolute;
@@ -65,5 +66,5 @@
         padding-left: 80px;
         padding-right: 20px;
         font-size: 50px;
-        margin-bottom: 250px;
+        /* margin-bottom: 250px; */
     }
