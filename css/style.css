@@ -18,7 +18,7 @@
 }
 
 .nav__logo {
-    width: 150px;
+    width: 100px;
 }
 
 /* стилізація лінків у наві*/
@@ -40,31 +40,11 @@
 
 /* зміна кольору активного лінка у меню */
 .nav a.active {
-    background-color: #74964b;
+    background-color: #9ec76c;
     color: white;
+}
 
-    /* секція з меню у наві вправо з марджіном */
-    /* .nav__menu { */
-        /* float: right; */
-        /* margin-right: 20px; */
-    /* } */
-
-    /* .underheader__image { */
-        /* position: relative; */
-        /* height: 300px; */
-        /* width: 100%; */
-    /* } */
-
-    .underheader__text {
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-        background-color: rgb(161, 160, 160);
-        opacity: 0.85;
-        /* color: var(--title-color); використання змінної з global.css */
-        color: brown;
-        padding-left: 80px;
-        padding-right: 20px;
-        font-size: 50px;
-        /* margin-bottom: 250px; */
-    }
+.services__image {
+    width: 50%;
+    float: left;
+}
