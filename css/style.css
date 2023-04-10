@@ -38,10 +38,10 @@
     color: white;
 
     /* секція з меню у наві вправо з марджіном */
-    .nav__menu {
-        float: right;
-        margin-right: 20px;
-    }
+    /* .nav__menu { */
+        /* float: right; */
+        /* margin-right: 20px; */
+    /* } */
 
     .underheader__image {
         position: relative;
