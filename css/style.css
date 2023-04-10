@@ -2,3 +2,11 @@
 .underheader__text {
     color: var(--title-color);  /* використання змінної з global.css */
 }
+
+.nav {
+    display: block;
+    background-color: #86bb46;
+    overflow: hidden;  /* якщо контенту більше то зайве ховається */
+    top: 0; /* зверху сторінки */
+    width: 100%; /* повна ширина */
+}
