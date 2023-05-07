@@ -1,0 +1,51 @@
+.contact-motivation {
+  background-image: url("../img/background-motivation.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.contact-motivation__box {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 80%;
+  padding: 50px 5px 50px 5px;
+}
+
+.motivation__box-text {
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: solid 1px var(--main-color);
+  padding: 5px;
+  margin: 20px;
+}
+
+.contact-motivation__title {
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 150%;
+  color: var(--aditional-color);
+  padding: 10px 20px 0px 20px;
+}
+
+.contact-motivation__text {
+  height: 100%;
+  width: 100%;
+  font-size: calc(2vw + 2vh);
+  overflow: hidden;
+  font-family: "Rubik", sans-serif;
+  padding: 10px 20px;
+  line-height: 150%;
+  font-weight: 800;
+  color: var(--main-color);
+}
+
+.contact-motivation__text a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.contact-motivation__text a:hover {
+  color: var(--accent-color);
+}

@@ -1,0 +1,23 @@
+.gallery__section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery__carousel {
+  display: flex;
+  justify-content: center;
+  margin: 10px 20px 40px 20px;
+}
+
+.gallery__title {
+  width: auto;
+  text-align: center;
+
+  padding: 30px 50px 10px 50px;
+  font-family: "Rubik", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  color: var(--aditional-color);
+}

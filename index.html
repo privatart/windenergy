@@ -1,200 +1,407 @@
 <!DOCTYPE html>
-<html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wind Force</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+<html lang="en">
 
-  <body>
-    <header>
-      <div class="nav">
-        <a class="nav__logo" href="index.html"
-          ><img src="img/company-logo.jpg" title="Home page" alt="Company logo"
-        /></a>
-        <div class="nav__menu">
-          <a class="active" href="#">Послуги</a>
-          <a href="#">Наші роботи</a>
-          <a href="#">Ціни</a>
-          <a href="#">Контакти</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Енергія вітру для дому та бізнесу</title>
+  <link rel="icon" href="img/icons/favicon.png" />
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+  <header>
+    <div class="upperline">
+      <div class="container">
+        <div class="upperheader container">
+          <div class="upperheader__item">
+            <span>Консультація з підключень:</span>
+            <a href="tel:+380660666666">+38 (066) 066 66 66</a>
+          </div>
+          <div class="upperheader__item">
+            <span>Написати нам:</span>
+            <a href="mailto:wind-power@gmail.com">wind-power@gmail.com</a>
+          </div>
         </div>
       </div>
-    </header>
-    <main class="main-page">
-      <div class="underheader">
-        <img
-          class="underheader__image"
-          src="img/underheader.jpg"
-          alt="Wind turbine"
-        />
-        <!-- <img class="catlogo" src="img/catlogo.png" alt="Cat Logo" /> РОЗІБРАТИСЬ!!!!-->
-        <div class="underheader__text">
-          <h1 class="underheader__h1">Сила вітру</h1>
-          <h3 class="underheader__h3">
-            Коли дме вітер змін, одні будують стіни, а інші – вітряні млини
-          </h3>
+    </div>
+    <section class="banner-bg banner-bg_origin">
+      <div class="container">
+        <div class="container-section">
+          <nav class="navigation">
+            <div class="navigation-logo">
+              <a href="index.html"><img width="200" src="img/company-logo.jpg" class="header-logo" alt="logo" /></a>
+              <div class="navigation-burger"><span></span></div>
+            </div>
+            <div class="navigation-wrapper">
+              <div class="navigation-pages">
+                <a href="#services" class="navigations__link">Послуги</a>
+                <a href="#solutions" class="navigations__link">Переваги</a>
+                <a href="#questions" class="navigations__link">Інформація</a>
+                <a href="#contacts" class="navigations__link">Контакти</a>
+              </div>
+              <div class="navigation-social">
+                <a href="https://tech.facebook.com/engineering/2021/4/renewable-energy/" target="blank"><img
+                    src="img/icons/facebook-icon.png" alt="facebook" /></a>
+                <a href="https://www.instagram.com/explore/tags/windenergy/" target="blank"><img
+                    src="img/icons/insta-icon.png" alt="instagram" /></a>
+                <a href="https://www.youtube.com/watch?v=1kUE0BZtTRc" target="blank"><img
+                    src="img/icons/youtube-icon.png" alt="youtube" /></a>
+              </div>
+            </div>
+          </nav>
+          <div class="banner">
+            <div class="banner__text">
+              <h1>
+                Енергія <br /><span class="banner__text-keyword">вітру</span><br />
+                для будь-яких потреб
+              </h1>
+              <p>
+                Коли дме вітер змін, одні будують стіни, а інші – вітряні
+                млини
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <section id="idservices" class="services">
-        <h2 class="services__h2">-Наші послуги</h2>
-        <p class="services__title">Енергія вітру для помешкань та бізнесу</p>
-        <p class="services__text">
-          Наша компанія виготовляє та встановлює вітряні генератори для
-          приватних помешкань та бізнесу будь-якого масштабу більше ніж
-          <span class="accent">10 років</span>. Ми пропонуємо для клієнтів
-          наступні послуги:
-        </p>
-        <ul class="services__ul">
-          <li>Консультування та підтримка у підборі вітряків;</li>
-          <li>Доставка та встановлення вітряних електростанцій;</li>
-          <li>Під'єднання до електричної мережі;</li>
-          <li>
-            Технічна підтримка та гарантійне/післягарантійне обслуговування.
-          </li>
-        </ul>
-        <img
-          class="services__image"
-          src="img/services-background.png"
-          alt="Wind turbine engineer"
-        />
-        <a href="#" class="services__link">Зв'язатись з нами</a>
-      </section>
-      <section id="idsolutions" class="solutions">
-        <h2 class="solutions__h2">
-          -Від ідеї до реалізації. Ми пропонуємо кращі рішення
+    </section>
+  </header>
+  <section id="services" class="services container">
+    <div class="services__image">
+      <img class="services__image" src="img/services-background.png" alt="Wind turbine engineer" />
+    </div>
+    <div class="services__text">
+      <h2 class="services__h2">Наші послуги</h2>
+      <p class="services__title">Енергія вітру для помешкань та бізнесу</p>
+      <p class="services__text-list">
+        Наша компанія виготовляє та встановлює вітряні генератори для
+        приватних помешкань та бізнесу більше ніж
+        <span class="accent">15 років</span>. Ми пропонуємо для клієнтів
+        наступні послуги:
+      </p>
+      <ul class="services__ul">
+        <li>Консультування та підтримка у підборі вітряків;</li>
+        <li>Доставка та встановлення вітряних електростанцій;</li>
+        <li>Під'єднання до електричної мережі;</li>
+        <li>
+          Технічна підтримка та гарантійне / післягарантійне обслуговування.
+        </li>
+      </ul>
+      <div class="services__button-place">
+        <a href="#contacts" class="services__link">Залишити заявку</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="solutions" class="solutions">
+    <div class="container">
+      <p class="solutions__slogan">...від ідеї до реалізації...</p>
+      <h2 class="solutions__title">Ми пропонуємо кращі рішення</h2>
+      <div class="solutions__boxes">
+        <article class="solutions-card">
+          <img class="solutions__box-image" src="img/solutions/solutions-1.png" width="150" alt="image" />
+          <p class="solutions__box-title">Встановлення вітряків</p>
+          <p class="solutions__box-text">
+            Досвід встановлення більше ніж 1000 об'єктів.
+          </p>
+        </article>
+        <article class="solutions-card">
+          <img class="solutions__box-image" src="img/solutions/solutions-2.png" width="150" alt="image" />
+          <p class="solutions__box-title">Енергія на будь-які потреби</p>
+          <p class="solutions__box-text">
+            Ми пропонуємо вітряні генератори <br />на 1 - 2 - 5 кВт.
+          </p>
+        </article>
+        <article class="solutions-card">
+          <img class="solutions__box-image" src="img/solutions/solutions-3.png" alt="image" />
+          <p class="solutions__box-title">Обчислення Ваших потреб</p>
+          <p class="solutions__box-text">
+            Проводимо безкоштовний підрахунок потрібної Вам потужності.
+          </p>
+        </article>
+        <article class="solutions-card">
+          <img class="solutions__box-image" src="img/solutions/solutions-4.png" alt="image" />
+          <p class="solutions__box-title">Домашні та бізнес рішення</p>
+          <p class="solutions__box-text">
+            Допоможемо підібрати вітряки для домівок, офісів та навіть фабрик.
+          </p>
+        </article>
+        <article class="solutions-card">
+          <img class="solutions__box-image" src="img/solutions/solutions-5.png" alt="image" />
+          <p class="solutions__box-title">Енергія цілий рік</p>
+          <p class="solutions__box-text">
+            Вітряна енергія, на відміну від сонячної, ефективна протягом
+            всього року
+          </p>
+        </article>
+        <article class="solutions-card">
+          <img class="solutions__box-image" src="img/solutions/solutions-6.png" alt="image" />
+          <p class="solutions__box-title">10% на підтримку ЗСУ</p>
+          <p class="solutions__box-text">
+            Частина прибутку іде на потреби Сил Оборони України
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <div class="since__container-info">
+        <h2 class="gallery__title">
+          Використання вітряної енергії в усьому світі набуває вражаючих
+          масштабів
         </h2>
-        <p class="solutions__title">
-          За роки роботи ми встановили більше
-          <span class="accent">1000</span> об'єктів
-        </p>
-        <p class="solutions__btext">Ми піклуємось про довкілля</p>
-        <div class="solutions__box">
-          <div>
-            <img
-              class="solutions__box-image"
-              src="img/solutions/solutions-1.png"
-              width="150"
-              alt="image"
-            />
-            <p class="solutions__box-title">Встановлення вітряків</p>
-            <p class="solutions__box-text">
-              У нас величезний досвід встановлення більше ніж 1000 об'єктів.
-            </p>
-          </div>
-          <div>
-            <img
-              class="solutions__box-image"
-              src="img/solutions/solutions-2.png"
-              width="150"
-              alt="image"
-            />
-            <p class="solutions__box-title">Енергія на будь-які потреби</p>
-            <p class="solutions__box-text">
-              Ми пропонуємо вітряні генератори на 1-2-5 кВт. Проводимо
-              безкоштовний підрахунок потрібної Вам потужності.
-            </p>
-          </div>
-          <div>
-            <img
-              class="solutions__box-image"
-              src="img/solutions/solutions-3.png"
-              width="150"
-              alt="image"
-            />
-            <p class="solutions__box-title">Title ТЕКСТ</p>
-            <p class="solutions__box-text">ТЕКСТ.</p>
-          </div>
-          <div>
-            <img
-              class="solutions__box-image"
-              src="img/solutions/solutions-4.png"
-              width="150"
-              alt="image"
-            />
-            <p class="solutions__box-title">Title ТЕКСТ</p>
-            <p class="solutions__box-text">ТЕКСТ.</p>
-          </div>
-          <div>
-            <img
-              class="solutions__box-image"
-              src="img/solutions/solutions-5.png"
-              width="150"
-              alt="image"
-            />
-            <p class="solutions__box-title">Title ТЕКСТ</p>
-            <p class="solutions__box-text">ТЕКСТ.</p>
-          </div>
-          <div>
-            <img
-              class="solutions__box-image"
-              src="img/solutions/solutions-6.png"
-              width="150"
-              alt="image"
-            />
-            <p class="solutions__box-title">Title ТЕКСТ</p>
-            <p class="solutions__box-text">ТЕКСТ.</p>
+        <div class="gallery__section">
+          <div class="gallery__carousel">
+            <button class="gallery__carousel-btn-prev">
+              <img src="img/carousel/btn-left.png" alt="button left" />
+            </button>
+            <div class="gallery__carousel-slide"></div>
+            <button class="gallery__carousel-btn-next">
+              <img src="img/carousel/btn-right.png" alt="button left" />
+            </button>
           </div>
         </div>
-      </section>
-      <section class="since">
-        <h2 class="since__h2">-Врятуємо світ разом</h2>
-        <p class="since__title">
-          Величезний досвід з <span class="accent">2005</span> року
-        </p>
-        <p class="since__text">
-          Наша компанія один з лідерів українського ринку вітряних
-          електростанцій. Ми працюємо не лише для того, аби Ви мали стабільну
-          енергію, але також жили на чистій, зеленій Планеті. За роки роботи ми
-          досягли вагомих результатів, та віримо, що це лише початок
-          популяризації використання вітряної енергії.
-        </p>
-        <div class="since__box">
-          <div>
-            <img
-              class="since__box-image"
-              src="img/since/since-1.png"
-              width="50"
-              alt="image"
-            />
-            <p class="since__box-title">250 ГВт</p>
-            <p class="since__box-text">отриманої енергії</p>
-          </div>
-          <div>
-            <img
-              class="since__box-image"
-              src="img/since/since-2.png"
-              width="50"
-              alt="image"
-            />
-            <p class="since__box-title">1000 +</p>
-            <p class="since__box-text">встановлених вітряків</p>
-          </div>
-          <div>
-            <img
-              class="since__box-image"
-              src="img/since/since-3.png"
-              width="50"
-              alt="image"
-            />
-            <p class="since__box-title">25 Дб</p>
-            <p class="since__box-text">рівень шуму</p>
-          </div>
-          <div>
-            <img
-              class="since__box-image"
-              src="img/since/since-4.png"
-              width="50"
-              alt="image"
-            />
-            <p class="since__box-title">1000+</p>
-            <p class="since__box-text">вдячних клієнтів</p>
+      </div>
+    </div>
+  </section>
+  <section class="contact-motivation">
+    <div class="container">
+      <div class="contact-motivation__box">
+        <div></div>
+        <div class="motivation__box-text">
+          <p class="contact-motivation__title">
+            Отримайте всі переваги чистої енергії
+          </p>
+          <div class="contact-motivation__text">
+            Заповніть<br />
+            <a href="#contacts__form"> контактну форму</a>, <br /><a href="mailto:wind-power@gmail.com"
+              class="contact-motivation__mail">напишіть</a>
+            нам<br />чи
+            <a href="tel:+380660666666" class="contact-motivation__tel">подзвоніть</a><br />
           </div>
         </div>
-      </section>
-    </main>
-    <footer></footer>
-  </body>
+      </div>
+    </div>
+  </section>
+  <section id="since" class="since">
+    <div class="container">
+      <div class="since__container">
+        <div class="since__container-info">
+          <h2 class="since__h2">...врятуємо світ разом...</h2>
+          <p class="since__title">
+            Досвід роботи з <br /><span class="accent">2005</span> року
+          </p>
+          <div class="since__maintext">
+            <div class="since__text">
+              Наша компанія один з лідерів українського ринку вітряних
+              електростанцій. Ми працюємо не лише для того, аби Ви мали
+              стабільну енергію, але також жили на чистій зеленій Планеті.<br />За
+              роки роботи ми досягли вагомих результатів:
+            </div>
+          </div>
+        </div>
+        <div class="since__boxes">
+          <article class="since__box">
+            <img class="since__box-image" src="img/since/since-1.png" alt="image" />
+            <div class="since__textbox">
+              <h3 class="since__box-title">
+                <span class="changeGWt">2500</span> ГВт
+              </h3>
+              <p class="since__box-text">отриманої енергії</p>
+            </div>
+          </article>
+          <article class="since__box">
+            <img class="since__box-image" src="img/since/since-2.png" alt="image" />
+            <div class="since__textbox">
+              <h3 class="since__box-title">1000 +</h3>
+              <p class="since__box-text">встановлених вітряків</p>
+            </div>
+          </article>
+          <article class="since__box">
+            <img class="since__box-image" src="img/since/since-3.png" alt="image" />
+            <div class="since__textbox">
+              <h3 class="since__box-title">25 Дб</h3>
+              <p class="since__box-text">рівень шуму</p>
+            </div>
+          </article>
+          <article class="since__box">
+            <img class="since__box-image" src="img/since/since-4.png" alt="image" />
+            <div class="since__textbox">
+              <h3 class="since__box-title">1000+</h3>
+              <p class="since__box-text">вдячних клієнтів</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="questions" class="questions">
+    <div class="container">
+      <div class="questions__image-box">
+        <img class="questions__image" src="img/questions-image.jpg" alt="wind turbines" />
+      </div>
+      <div class="questions__text-box">
+        <div class="questions__title">
+          <h2 class="questions__title-main">Найпоширеніші запитання</h2>
+          <p class="questions__title-text">
+            Вітер це
+            <span class="accent-text">невичерпне джерело енергії</span>. У
+            деяких країнах світу вітряні електростанції живлять цілі міста. В
+            той же час, вони не шкодять природі та не забруднюють довкілля.
+          </p>
+        </div>
+
+        <div class="questions__accordion accordion">
+          <div class="accordion__part">
+            <div class="accordion__part-title">
+              Чи дають вітряні електростанції стабільну енергію?
+            </div>
+            <div class="accordion__part-text">
+              Так. При правильному встановленні та підключенні вітряні
+              електростанції забезпечують енергію
+              <span class="accent-text">365 днів на рік</span>.
+            </div>
+          </div>
+          <hr />
+          <div class="accordion__part">
+            <div class="accordion__part-title">
+              Який строк служби вітряної електростанції?
+            </div>
+            <div class="accordion__part-text">
+              При належному користуванні та періодичному технічному огляді
+              вітряні електростанції служать до
+              <span class="accent-text">30 років</span>.
+            </div>
+          </div>
+          <hr />
+          <div class="accordion__part">
+            <div class="accordion__part-title">
+              Наскільки гучно працює вітряна електростанція?
+            </div>
+            <div class="accordion__part-text">
+              В операційному режимі шум роботи вітряної електростанції досягає
+              <span class="accent-text">лише 25 Дб</span>. Для порівняння,
+              настінний механічний годинник видає 30 Дб.
+            </div>
+          </div>
+          <hr />
+          <div class="accordion__part">
+            <div class="accordion__part-title">
+              Вітряна електростанція безпечна для довкілля?
+            </div>
+            <div class="accordion__part-text">
+              Абсолютно безпечна. При її роботі не використовується жоден тип
+              палива, тобто викиди у атмосферу
+              <span class="accent-text">дорівнюють нулю</span>.
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="contacts">
+    <div class="container">
+      <div class="contacts__container">
+        <div class="contacts__boxpart">
+          <h2 class="contacts__title">Наші контакти</h2>
+          <div class="contacts__box">
+            <p class="contacts__box-text">
+              Для отримання професійної консультації звертайтесь до нас
+              будь-яким зручним способом:
+            </p>
+          </div>
+          <div class="contacts__item">
+            <p class="contacts__item-title">Адреса</p>
+            <p class="contacts__item-text">
+              <a href="https://www.google.com.ua/maps/@48.2676033,25.9242513,17z?hl=uk" class="contacts__item-text"
+                target="_blank">58000 вул. Героїв Майдану 169, офіс 69<br />м. Чернівці,
+                Україна</a>
+            </p>
+          </div>
+          <div class="contacts__item">
+            <p class="contacts__item-title">Години роботи</p>
+            <p class="contacts__item-text">
+              Понеділок - П'ятниця:
+              <span class="working-hours">10-00 : 18-00</span><br />Субота:
+              <span class="working-hours">11-00 : 17-00</span><br />Неділя:
+              <span class="working-hours">вихідний</span>
+            </p>
+          </div>
+          <div class="contacts__item">
+            <p class="contacts__item-title">Телефон / ел. пошта</p>
+            <a href="tel:+380660666666" class="contacts__item-text">
+              +38 (066) 066 66 66</a><br />
+            <a href="mailto:wind-power@gmail.com" class="contacts__item-text">wind-power@gmail.com</a>
+          </div>
+        </div>
+        <div class="contacts__boxpart">
+          <p class="contacts__form-title">
+            Підписатись на актуальну інформацію:
+          </p>
+          <div id="contacts__form" class="contacts__form">
+            <input class="contacts__form-field" class="contacts__form-name" type="text" placeholder="Прізвище та ім'я*"
+              required />
+
+            <input class="contacts__form-field" class="contacts__form-phone" type="tel" placeholder="Номер телефону*"
+              required />
+
+            <input class="contacts__form-field" class="contacts__form-email" type="email" placeholder="E-mail*"
+              required />
+            <button class="contacts__form-button">Відправити</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="upper-footer-background">
+      <img src="img/footer-background.jpg" alt="footer" />
+    </div>
+    <section class="footer__menu">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer__menu-logo_text">
+            <a href="index.html"><img src="img/company-logo.jpg" class="footer__menu-logo" alt="logo" /></a>
+            <p class="footer__menu-text">
+              Наша компанія вже більше 15 років виробляє та встановлює вітряні
+              елекростанції по всій Україні
+            </p>
+          </div>
+          <div class="footer__menu-links-1">
+            <a href="#since">Про компанію</a>
+            <a href="#services">Послуги</a>
+            <a href="#solutions">Переваги</a>
+          </div>
+          <div class="footer__menu-links-2">
+            <a href="#gallery">Галерея</a>
+            <a href="#questions">Вітряна енергія</a>
+            <a href="#contacts">Контакти</a>
+          </div>
+          <div class="footer__menu-followus">
+            <p><a href="#contacts__form">Підписуйтесь</a></p>
+            <div class="footer__social-links">
+              <a href="https://tech.facebook.com/engineering/2021/4/renewable-energy/" target="blank"><img
+                  class="footer-social-img" src="img/icons/facebook-icon.png" alt="facebook" /></a>
+              <a href="https://www.instagram.com/explore/tags/windenergy/" target="blank"><img class="footer-social-img"
+                  src="img/icons/insta-icon.png" alt="instagram" /></a>
+              <a href="https://www.youtube.com/watch?v=1kUE0BZtTRc" target="blank"><img class="footer-social-img"
+                  src="img/icons/youtube-icon.png" alt="youtube" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script src="js/burger-menu.js"></script>
+  <script src="js/h1-keyword.js"></script>
+  <script src="js/gigawatt-counter.js"></script>
+  <script src="js/gallery-carousel.js"></script>
+  <script src="js/questions-accordion.js"></script>
+</body>
+
 </html>

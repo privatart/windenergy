@@ -1,0 +1,37 @@
+.upperheader {
+  max-width: 100%;
+  display: none;
+  text-align: center;
+  background-color: var(--aditional-color);
+  height: 30px;
+}
+
+.upperline {
+  background-color: var(--aditional-color);
+}
+.upperheader__item {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  justify-content: center;
+  padding: 5px 50px;
+  color: var(--main-color);
+}
+
+.upperheader__item a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.upperheader__item a:hover {
+  color: var(--bright-color);
+}
+
+@media (min-width: 991px) {
+  .upperheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+}

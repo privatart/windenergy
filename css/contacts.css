@@ -1,0 +1,132 @@
+.contacts {
+  background-color: var(--main-color);
+  line-height: 1.5;
+  padding: 20px 40px 50px 40px;
+}
+
+.contacts__boxpart {
+  padding: 10px;
+}
+.contacts__title {
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Rubik", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  color: var(--aditional-color);
+}
+
+.contacts__item-title {
+  text-align: left;
+  padding: 10px 0px 10px 0px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  color: var(--bright-color);
+}
+
+.contacts__box-text {
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  color: var(--bright-color);
+  padding-bottom: 20px;
+}
+
+.contacts__item-text {
+  font-family: "Chivo", sans-serif;
+  font-size: 16px;
+  color: var(--accent-color);
+  text-align: start;
+  margin-bottom: 15px;
+}
+
+.working-hours {
+  color: var(--bright-color);
+}
+.contacts__item a {
+  text-decoration: none;
+}
+
+.contacts__item a:hover {
+  color: var(--aditional-color);
+}
+
+@media (min-width: 900px) {
+  .contacts__container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column-gap: 20px;
+    align-items: center;
+  }
+}
+
+.contacts__form-name,
+.contacts__form-phone,
+.contacts__form-email {
+  font-family: "Chivo", sans-serif;
+  font-size: 11px;
+  color: var(--main-color);
+  text-align: start;
+}
+
+.contacts__form-title {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  color: var(--bright-color);
+}
+.contacts__form {
+  display: flex;
+  border-radius: 30px;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--aditional-color);
+  height: 340px;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+
+.contacts__form-field {
+  opacity: 0.9;
+  text-align: start;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 90px;
+  border: none;
+  height: 30px;
+  width: 300px;
+  min-width: 60%;
+  max-width: 60%;
+}
+
+.contacts__form-field::placeholder {
+  font-size: 12px;
+  text-overflow: ellipsis;
+}
+
+.contacts__form-button {
+  background-color: var(--bright-color);
+  color: var(--aditional-color);
+  text-transform: uppercase;
+  border-radius: 90px;
+  height: 30px;
+  border: none;
+  width: 300px;
+  min-width: 60%;
+  max-width: 60%;
+  margin-top: 50px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.contacts__form-button:hover {
+  color: var(--bright-color);
+  background-color: var(--accent-color);
+}

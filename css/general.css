@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;900&display=swap");
+
+:root {
+  --main-color: #28283a;
+  --main-light-color: #66698c;
+  --aditional-color: #70a036;
+  --accent-color: #ff5b00;
+  --bright-color: white;
+  --dark-color: black;
+  }
+
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
