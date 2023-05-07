@@ -12,6 +12,7 @@
     align-items: center;
   }
 }
+
 .services__h2 {
   text-align: center;
   padding-top: 15px;
@@ -60,8 +61,8 @@
 .services__ul {
   font-style: italic;
 }
+
 .services__image {
-  padding: 10px auto 10px auto;
   margin: 10px auto;
   width: 90%;
 }
