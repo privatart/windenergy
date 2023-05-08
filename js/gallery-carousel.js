@@ -28,7 +28,7 @@ function prevSlide() {
 }
 
 nextSlide();
-setInterval(nextSlide, 4000);
+setInterval(nextSlide, 2000);
 
 const btnNext = document.querySelector(".gallery__carousel-btn-next");
 btnNext.addEventListener("click", nextSlide);
